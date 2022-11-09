@@ -6,15 +6,15 @@ Created an Car-Selling Website with Login,Register,Home and Contact us Page.
 
 2.cd backend->npm i
 
-## To run the project
+# To run the project
 ### `npm run dev`
 
-##Pages
+# Pages
 ### Login & register
 ### Home
 ### Contact Us
 
-##Tech Use
+# Tech Use
 ### Frontend->React Js,CSS,Bootstrap
 ### Backend->Node Js,Express Js
 ### Database->MongoDB
