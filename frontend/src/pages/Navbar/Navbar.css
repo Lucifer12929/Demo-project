@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+.navbar {
+    /* position: fixed; */
+    /* position: absolute; */
+    display: flex;
+  
+     /* border: 2px solid black; */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,51,242,0) 0%, rgba(49,66,213,1) 37%); */
+    /* grid-template-columns: 20% 40% 40%; */
+    align-items: center;
+    /* height: 70px; */
+    /* align-content: center;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 10px;
+  
+ 
+    justify-content: space-between;
+    /* position: absolute;
+    width: 100%;
+    top: 64px;
+    left: 0;
+    padding-inline: 30px;
+    /* visibility: hidden; */
+   
+  }
+  .logo{
+    margin-left: 2rem;
+
+  }
+  .onright{
+    margin-right: 2rem;
+  }
+
+  /* .ant-input-group {
+    z-index: 10;
+  } */
+  .Btn{
+    width: 10rem;
+    height: 3rem;
+    
+    font-size: 2rem;
+    font-family: lato;
+    background-color: skyblue;
+    color:#fff;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgrey;
+    border-radius: 2px;
+  }
+  .linkinbtn{
+    text-decoration: none;
+    color: white;
+  }
+  .logo_t{
+    margin-top: 20px;
+    height: 3rem;
+    text-decoration: none;
+  }
+  .logo_t h1{
+    color: #fff;
+		font-size: 3rem;
+    
+		font-weight: 700;
+		font-family: "Josefin Sans", sans-serif;
+		background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		/* text-fill-color: transparent; */
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 1.5s linear infinite;
+		display: inline-block;
+	}
+
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+  
